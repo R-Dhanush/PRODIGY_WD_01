@@ -109,9 +109,10 @@ section {
   margin-bottom: 30px;
 }
 
-.main a button {
+.main a{
   background-color: #1d1d1d;
   color: white;
+  text-decoration: none;
   border: none;
   padding: 10px 20px;
   border-radius: 25px;
@@ -120,7 +121,7 @@ section {
   transition: background-color 0.3s;
 }
 
-.main a button:hover {
+.main a:hover {
   background-color: orangered;
 }
 
@@ -271,7 +272,7 @@ section {
     font-size: 25px;
   }
 
-  .main a button {
+  .main a{
     font-size: 15px;
   }
 
