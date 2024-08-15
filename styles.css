@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar {
+  background-color: #1d1d1d;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  margin-right: 75px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom-color 2s ease;
+}
+
+.nav-item a:hover {
+  color: orangered;
+  border-bottom-color: orangered;
+}
+
+.nav-menu-toggle {
+    margin-right: 20px;
+  display: none;
+}
+
+/* sidenavbar */
+
+.side-navbar {
+  background-color: #1d1d1d;
+  color: white;
+  position: fixed;
+  width: 50%;
+  height: 100%;
+  top: 0%;
+  right: -800px;
+  padding: 20px;
+  transition: 2s;
+}
+
+.side-nav-item {
+  list-style-type: none;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.side-nav-item a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s ease, border-bottom-color 2s ease;
+}
+
+.side-nav-item a:hover {
+  color: orangered;
+  border-bottom-color: orangered;
+}
+
+/* section */
+section {
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+}
+
+/* home */
+
+#home {
+  background: url("img/14294.jpg") no-repeat center center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.main p {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.main a button {
+  background-color: #1d1d1d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.main a button:hover {
+  background-color: orangered;
+}
+
+/* collection */
+
+#collection {
+  background-color: #f4f4f4;
+}
+
+.title h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.collection-contanir {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.collection-item {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.collection-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.heading {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.content {
+  font-size: 15px;
+}
+
+.heading,
+.content {
+  background-color: #e2e4e7;
+}
+
+/* trends */
+
+#trends {
+  background-color: #e2e2e2;
+}
+
+.trends-contanir {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.trend-item {
+  background-color: #d2d4d7;
+  width: 40%;
+  min-height: 200px;
+  margin-bottom: 30px;
+}
+
+.trend-item h3 {
+  font-size: 25px;
+}
+
+.trend-item p {
+  font-size: 12px;
+}
+
+/* Contact */
+
+.ctitle h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.ctitle p {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.contact-data {
+  max-width: 600px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.form-info {
+  margin-bottom: 20px;
+}
+
+.form-info label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-info input,
+.form-info textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  background-color: #ff4500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: #aa4500;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .main h1 {
+    font-size: 60px;
+  }
+
+  .main p {
+    font-size: 25px;
+  }
+
+  .main a button {
+    font-size: 15px;
+  }
+
+  .collection-contanir {
+    flex-direction: column;
+  }
+
+  .collection-item {
+    width: 100%;
+  }
+
+  .trends-contanir {
+    flex-direction: column;
+  }
+
+  .trend-item {
+    width: 100%;
+  }
+
+  .btn {
+    font-size: 10px;
+  }
+}

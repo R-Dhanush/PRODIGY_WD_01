@@ -1,11 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FashionFlux</title>
-</head>
-<body>
-    
-</body>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <h1>FashionFlux</h1>
+
+      <div class="nav-links">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#collection">Collection</a></li>
+          <li class="nav-item"><a href="#trends">Trends</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-menu-toggle">
+        <i class="fa-solid fa-bars" onclick="showsidenav()"></i>
+      </div>
+    </nav>
+
+    <!-- sidenavbar -->
+    <div class="side-navbar">
+      <i class="fa-solid fa-xmark" onclick="closesidenav()"></i>
+      <div class="side-nav-links">
+        <ul class="side-nav-menu">
+          <li class="side-nav-item"><a href="#home">Home</a></li>
+          <li class="side-nav-item"><a href="#collection">Collection</a></li>
+          <li class="side-nav-item"><a href="#trends">Trends</a></li>
+          <li class="side-nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Sections -->
+    <section id="home">
+      <div class="main">
+        <h1>Welcome to FashionFlux</h1>
+        <p>Discover the latest trends in fashion and style</p>
+        <a href="#collection"><button>Shop Now</button></a>
+      </div>
+    </section>
+
+    <section id="collection">
+      <div class="title">
+        <h2>New Collection</h2>
+        <p>
+          Explore our latest collection of clothing, accessories, and footwear
+          that blend elegance with modern fashion trends. Each piece is crafted
+          with precision and designed to make you stand out.
+        </p>
+      </div>
+
+      <div class="collection-contanir">
+        <div class="collection-item">
+          <img
+            src="img/pexels-maksgelatin-4380970.jpg"
+            alt="Spring Collection 2024"
+          />
+          <h3 class="heading">Spring Collection 2024</h3>
+          <p class="content">
+            Bloom in Style: Embrace the Season with Fresh, Vibrant Looks that
+            Captivate and Inspire.
+          </p>
+        </div>
+        <div class="collection-item">
+          <img src="img/5002.jpg" alt="Summer Collection 2024" />
+          <h3 class="heading">Summer Collection 2024</h3>
+          <p class="content">
+            Sun-Kissed Style: Embrace the Heat with Cool, Breezy Outfits for a
+            Radiant Summer Glow.
+          </p>
+        </div>
+        <div class="collection-item">
+          <img
+            src="img/pexels-kowalievska-1309366.jpg"
+            alt="Fall Collection 2024"
+          />
+          <h3 class="heading">Fall Collection 2024</h3>
+          <p class="content">
+            Autumn Elegance: Embrace the Season with Cozy, Layered Styles that
+            Warm Your Fall Days and Elevate Your Look.
+          </p>
+        </div>
+        <div class="collection-item">
+          <img
+            src="img/pexels-godisable-jacob-226636-1653221.jpg"
+            alt="Winter Collection 2024"
+          />
+          <h3 class="heading">Winter Collection 2024</h3>
+          <p class="content">
+            Winter Luxe: Embrace the Chill with Chic, Cozy Essentials That Wrap
+            You in Warmth and Style All Season Long.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="trends">
+      <div class="title">
+        <h2>Latest Trends</h2>
+        <p>
+          Stay ahead of the curve with our curated trend report. From bold
+          prints to sustainable fashion, here’s what’s trending now:
+        </p>
+      </div>
+
+      <div class="trends-contanir">
+        <div class="trend-item">
+          <h3>Bold Prints</h3>
+          <p>
+            This Season, It’s All About Making a Statement with Vibrant,
+            Eye-Catching Prints! From the runways to everyday wear, bold prints
+            are dominating the fashion scene. Embrace the lively energy of
+            vibrant florals that burst with color, explore the dynamic patterns
+            of geometric shapes that create a visual feast, or dive into the
+            world of abstract art with designs that challenge conventional
+            aesthetics. These prints are not just trends—they're statements.
+            Whether you're dressing up for a special occasion or simply looking
+            to add a touch of personality to your casual outfits, incorporating
+            these striking patterns will ensure you stand out and make a lasting
+            impression.
+          </p>
+        </div>
+        <div class="trend-item">
+          <h3>Pastel Palettes</h3>
+          <p>
+            Soft Pastels: The Perfect Choice for a Calm Yet Stylish Look This
+            season, soft pastels are making waves in the fashion world, offering
+            a serene and elegant alternative to bolder colors. Light blues,
+            delicate pinks, and subtle lavenders are gracing runways and street
+            styles, creating a dreamy and sophisticated aesthetic. These muted
+            tones are not only versatile but also provide a soothing palette
+            that exudes both tranquility and refinement. Incorporate soft
+            pastels into your wardrobe to embrace a chic and understated
+            elegance that's perfect for any occasion.
+          </p>
+        </div>
+        <div class="trend-item">
+          <h3>Sustainable Fashion</h3>
+          <p>
+            Sustainability is More Than Just a Trend—It’s a Movement. We are
+            dedicated to reducing our fashion footprint by using eco-friendly
+            materials such as organic cotton and recycled fibers. Our commitment
+            extends to ensuring ethical production practices, partnering with
+            factories that uphold fair labor standards. Additionally, we focus
+            on minimizing waste through efficient production techniques. Our
+            goal is to make a positive impact on both the environment and the
+            communities we work with.
+          </p>
+        </div>
+        <div class="trend-item">
+          <h3>Vintage Revival</h3>
+          <p>
+            Retro is Back! From the iconic 70s flares to the edgy 90s grunge,
+            vintage styles are making a major comeback. Embrace the charm of
+            classic looks while incorporating modern twists to keep your fashion
+            fresh and on-trend. Whether you're revisiting the bold patterns of
+            the past or reimagining timeless cuts with contemporary fabrics,
+            blending old-school appeal with modern flair is the key to staying
+            stylish this season.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="ctitle">
+        <h2>Contact Us</h2>
+        <p>
+          We’d love to hear from you! Whether you have questions about our
+          collections, need style advice, or want to collaborate, feel free to
+          reach out:
+        </p>
+      </div>
+
+      <form class="contact-data" autocomplete="on">
+        <div class="form-info">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-info">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-info">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <p>
+        Or reach us directly at
+        <a href="mailto:dhanu72004@gmail.com">info@fashionista.com</a>
+      </p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
