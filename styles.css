@@ -55,6 +55,7 @@ body {
   position: fixed;
   top: 0;
   right: -100%;
+  width: 40%;
   height: 100%;
   background-color: #1d1d1d;
   color: white;
@@ -169,7 +170,7 @@ section {
 
 .trends-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -230,7 +231,7 @@ section {
 }
 
 .form-info {
-  margin-bottom: 2rem;
+  margin: 1rem 2rem;
 }
 
 .form-info label {
@@ -283,5 +284,9 @@ footer {
 
   .nav-menu-toggle {
       display: block;
+  }
+
+  .trends-container {
+    grid-template-columns: 1fr;
   }
 }
