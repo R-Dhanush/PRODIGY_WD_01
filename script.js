@@ -1,10 +1,10 @@
 var sidenav = document.querySelector(".side-navbar");
 function showsidenav() {
-  sidenav.style.right = "0px";
+  sidenav.style.right = "0%";
 }
 
 function closesidenav() {
-  sidenav.style.right = "-800px";
+  sidenav.style.right = "-100%";
 }
 
 window.addEventListener("scroll", function () {
