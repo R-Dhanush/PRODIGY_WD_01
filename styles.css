@@ -193,7 +193,8 @@ section {
 .content,
 .content {
   padding: 0 1rem 1.5rem 1rem;
-  text-align: center;
+  text-align: justify;
+  line-height: 1.75em;
   color: #555555;
 }
 
