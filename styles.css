@@ -40,7 +40,7 @@ body {
   transition: color 0.3s ease-in-out, border-bottom-color 0.6s ease-in-out;
 }
 
-.nav-item a:hover {
+.nav-item a:hover, a:focus{
   color: orangered;
   border-bottom-color: orangered;
 }
@@ -92,7 +92,7 @@ body {
   transition: color 0.3s ease-in-out, border-bottom-color 0.6s ease-in-out;
 }
 
-.side-nav-item a:hover {
+.side-nav-item a:hover, a:focus {
   color: orangered;
   border-bottom-color: orangered;
 }
@@ -138,7 +138,7 @@ section {
   transition: background-color 0.3s ease-in-out;
 }
 
-.main a:hover {
+.main a:hover, .main a:focus {
   background-color: #cc3014;
 }
 
@@ -198,8 +198,7 @@ section {
   color: #555555;
 }
 
-.collection-item:hover,
-.trend-item:hover {
+.collection-item:hover, .trend-item:hover{
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
   .heading {
@@ -261,7 +260,7 @@ section {
   transition: background-color 0.3s ease-in-out;
 }
 
-.btn:hover {
+.btn:hover, .btn:focus {
   background-color: #cc3014;
 }
 
