@@ -3,9 +3,12 @@
   padding: 0px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Poppins", sans-serif;
-  scroll-behavior: smooth;
 }
 
 /* navbar */
