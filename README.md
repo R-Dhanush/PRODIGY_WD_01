@@ -8,6 +8,8 @@ __Fixed Navigation Bar:__ A fixed navigation bar that adjusts its background col
 
 __Side Navigation Menu:__ A collapsible side navigation menu for mobile view.
 
+__Progress Bar:__ A scroll-based progress bar that indicates the user's position on the page.
+
 __Responsive Design:__ Optimized for different screen sizes, including mobile and desktop.
 
 __Section Highlights:__ Detailed sections for home, collection, trends, and contact information.
