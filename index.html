@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FashionFlux is your ultimate destination for the latest fashion collections, trends, and style inspiration. Explore seasonal collections and discover how to stay ahead in fashion with our curated trend reports and sustainable fashion choices.">
+    <meta
+      name="description"
+      content="FashionFlux is your ultimate destination for the latest fashion collections, trends, and style inspiration. Explore seasonal collections and discover how to stay ahead in fashion with our curated trend reports and sustainable fashion choices."
+    >
     <meta name="author" content="Dhanush_R">
     <title>FashionFlux</title>
 
@@ -16,7 +19,7 @@
     >
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" >
 
     <!-- font-awesome -->
     <link
@@ -34,10 +37,10 @@
 
       <div class="nav-links">
         <ul class="nav-menu">
-          <li class="nav-item"><a href="#home">Home</a></li>
-          <li class="nav-item"><a href="#collection">Collection</a></li>
-          <li class="nav-item"><a href="#trends">Trends</a></li>
-          <li class="nav-item"><a href="#contact">Contact</a></li>
+          <li class="nav-item"><a href="#home"> <i class="fas fa-home"></i> Home</a></li>
+          <li class="nav-item"><a href="#collection"><i class="fas fa-th-large"></i> Collection</a></li>
+          <li class="nav-item"><a href="#trends"><i class="fas fa-chart-line"></i> Trends</a></li>
+          <li class="nav-item"><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
         </ul>
       </div>
 
@@ -57,10 +60,18 @@
       <i class="fa-solid fa-xmark" onclick="closesidenav()"></i>
       <div class="side-nav-links">
         <ul class="side-nav-menu">
-          <li class="side-nav-item"><a href="#home">Home</a></li>
-          <li class="side-nav-item"><a href="#collection">Collection</a></li>
-          <li class="side-nav-item"><a href="#trends">Trends</a></li>
-          <li class="side-nav-item"><a href="#contact">Contact</a></li>
+          <li class="side-nav-item">
+            <a href="#home"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="#collection"><i class="fas fa-th-large"></i> Collection</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="#trends"><i class="fas fa-chart-line"></i> Trends</a>
+          </li>
+          <li class="side-nav-item">
+            <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -70,7 +81,7 @@
       <div class="main">
         <h1>Welcome to FashionFlux</h1>
         <p>Discover the latest trends in fashion and style</p>
-        <a href="#collection">Shop Now</a>
+        <a href="#collection">Shop Now <i class="fas fa-bag-shopping"></i></a>
       </div>
     </section>
 
@@ -89,7 +100,7 @@
           <img
             src="img/pexels-maksgelatin-4380970.jpg"
             alt="Spring Collection 2024"
-          >
+          />
           <h3 class="heading">Spring Collection 2024</h3>
           <p class="content">
             Bloom in Style: Embrace the Season with Fresh, Vibrant Looks that
@@ -97,7 +108,7 @@
           </p>
         </div>
         <div class="collection-item">
-          <img src="img/5002.jpg" alt="Summer Collection 2024">
+          <img src="img/5002.jpg" alt="Summer Collection 2024" />
           <h3 class="heading">Summer Collection 2024</h3>
           <p class="content">
             Sun-Kissed Style: Embrace the Heat with Cool, Breezy Outfits for a
@@ -108,7 +119,7 @@
           <img
             src="img/pexels-kowalievska-1309366.jpg"
             alt="Fall Collection 2024"
-          >
+          />
           <h3 class="heading">Fall Collection 2024</h3>
           <p class="content">
             Autumn Elegance: Embrace the Season with Cozy, Layered Styles that
@@ -116,10 +127,7 @@
           </p>
         </div>
         <div class="collection-item">
-          <img
-            src="img/pexels-olly-3785411.jpg"
-            alt="Winter Collection 2024"
-          >
+          <img src="img/pexels-olly-3785411.jpg" alt="Winter Collection 2024" />
           <h3 class="heading">Winter Collection 2024</h3>
           <p class="content">
             Winter Luxe: Embrace the Chill with Chic, Cozy Essentials That Wrap
@@ -210,11 +218,23 @@
       <form class="contact-data" autocomplete="on">
         <div class="form-info">
           <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required autocomplete="name">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            autocomplete="name"
+          />
         </div>
         <div class="form-info">
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required autocomplete="email">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="email"
+          />
         </div>
         <div class="form-info">
           <label for="message">Message:</label>
