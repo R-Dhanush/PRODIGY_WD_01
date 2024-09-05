@@ -217,15 +217,19 @@ section {
   color: #555555;
 }
 
-.collection-item:hover, .trend-item:hover{
+.collection-item:hover, .trend-item:hover {
   transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-  .heading {
-    color: #ff6347;
-  }
-  .content {
-    color: #000000;
-  }
+}
+
+.collection-item:hover .heading, 
+.trend-item:hover .heading {
+  color: #ff6347;
+}
+
+.collection-item:hover .content, 
+.trend-item:hover .content {
+  color: #000000;
 }
 
 .collection-item img {
